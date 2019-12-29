@@ -1,0 +1,1 @@
+console.log('Typescript should work')
