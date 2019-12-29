@@ -10,7 +10,9 @@
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
-    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
+    "lint": "prettier --check \"src/**/*\"",
+    "format": "prettier --write \"src/**/*\""
   },
   "dependencies": {
     "react": "^16.12.0",
@@ -26,6 +28,7 @@
     "electron-builder": "^21.0.11",
     "electron-webpack": "^2.7.4",
     "electron-webpack-ts": "^3.2.0",
+    "prettier": "^1.19.1",
     "typescript": "^3.7.4",
     "webpack": "~4.35.3"
   }

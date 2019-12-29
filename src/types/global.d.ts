@@ -1,4 +1,4 @@
-declare module NodeJS  {
+declare module NodeJS {
   interface Module {
     hot?: any
   }

@@ -4,7 +4,7 @@ Personal and portable Wiki desktop application
 
 ## Build
 
-You need Node.js LTS v10.* and yarn.
+You need Node.js LTS v10.\* and yarn.
 
 ### Development
 

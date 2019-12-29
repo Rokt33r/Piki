@@ -9,10 +9,7 @@ function render(Component: typeof App) {
     mainElement.setAttribute('id', 'root')
     document.body.appendChild(mainElement)
   }
-  ReactDOM.render(
-    <Component />,
-    document.getElementById('root')
-  )
+  ReactDOM.render(<Component />, document.getElementById('root'))
 }
 
 if (module.hot != null) {
